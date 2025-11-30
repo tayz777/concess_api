@@ -1,0 +1,32 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Divers
+.DS_Store
+Thumbs.db
+*.env
+
+# Scripts locaux
+populate_db.py
+
